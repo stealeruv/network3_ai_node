@@ -56,6 +56,8 @@ Copy and save this key for Binding process.
 
 ### 7. Provides node access to your account 
 
+Trick to enable binding + option
+
 First download the APK file for mobile or exe for windows and run it for 5 mins.
 
 Then,
@@ -66,7 +68,10 @@ Open a browser which you signin for network3 and visit: https://account.network3
 
 `Port 8080`
 
-Then you could click the '+' button on the top-right of the panel of current node in the dashboard. 
-And input the private key of the node in the dialog to bind. 
+Then you could click the '+' button on the top-right of the panel of current node in the dashboard.
+
+Input the private key that you copied from the node in the dialog box to bind. 
+
+Now you can uninstall your apk or exe app on your phone or system.
 
 
