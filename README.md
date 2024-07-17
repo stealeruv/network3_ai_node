@@ -31,33 +31,42 @@ tar -xf ubuntu-node-v1.1.tar && \
 rm -rf ubuntu-node-v1.1.tar && \
 cd ubuntu-node
 ```
-### 3. Start node
+### 3. Open Screen
+
+```
+screen -S n3ai
+```
+### 4. Start NOde
 ```
 sudo bash manager.sh up
 ```
 
-Copy and Save the secrect key
+### 5 . Deatach from screen
 
-### 4. Provides node access to your account 
+CTRL + A + D
 
-First download the APK file for mobile or exe for windows and run it for 5 mins 
-
-Then,
-
-Open a browser `Firefox` on the other machine and visit: https://account.network3.ai/main?o=xx.xx.xx.xx:8080
-
-`With: IP address of the Ubuntu machine is xx.xx.xx.xx`
-
-`Port 8080`
-
-Then you could click the '+' button on the top-right of the panel of current node in the dashboard. 
-And input the private key of the node in the dialog to bind. You may get the private key by this command:
+### 6. Get Private Key
 
 ```
 sudo bash manager.sh key
 ```
-### 5. Stop node
-```
-sudo bash manager.sh down
-```
+
+Copy and save this key for Binding process.
+
+
+### 7. Provides node access to your account 
+
+First download the APK file for mobile or exe for windows and run it for 5 mins.
+
+Then,
+
+Open a browser which you signin for network3 and visit: https://account.network3.ai/main?o=xx.xx.xx.xx:8080 
+
+`Replace it With your VPS IP address is xx.xx.xx.xx`
+
+`Port 8080`
+
+Then you could click the '+' button on the top-right of the panel of current node in the dashboard. 
+And input the private key of the node in the dialog to bind. 
+
 
