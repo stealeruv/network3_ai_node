@@ -26,9 +26,9 @@ sudo apt install wget curl make clang net-tools pkg-config libssl-dev build-esse
 ### 2. Download and Extract the tar file
 ```
 cd $HOME
-wget https://network3.io/ubuntu-node-v1.1.tar && \
-tar -xf ubuntu-node-v1.1.tar && \
-rm -rf ubuntu-node-v1.1.tar && \
+wget https://network3.io/ubuntu-node-v2.1.0.tar && \
+tar -xf ubuntu-node-v2.1.0.tar && \
+rm -rf ubuntu-node-v2.1.0.tar && \
 cd ubuntu-node
 ```
 ### 3. Open Screen
